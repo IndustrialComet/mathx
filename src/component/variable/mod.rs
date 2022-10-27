@@ -3,6 +3,7 @@ use super::Trait;
 use super::Component;
 use super::Tensor;
 
+#[derive(Clone)]
 pub struct Variable {
     symbol: String,
 }

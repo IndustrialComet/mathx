@@ -2,6 +2,7 @@ use super::Context;
 use super::Trait;
 use super::Component;
 
+#[derive(Clone)]
 pub struct Tensor {
     components: Vec<Component>,
 }

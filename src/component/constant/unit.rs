@@ -1,3 +1,4 @@
+#[derive(Clone)]
 pub struct Base {
     name: String,
     exponent: i8,
@@ -11,6 +12,7 @@ impl PartialEq for Base {
 
 impl Eq for Base {}
 
+#[derive(Clone)]
 pub struct Unit {
     bases: Vec<Base>
 }

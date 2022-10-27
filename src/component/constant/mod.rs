@@ -7,6 +7,7 @@ mod unit;//CHANGE
 
 use unit::Unit;
 
+#[derive(Clone)]
 pub struct Constant {
     value: f64,//THIS WILL CHANGE
     unit: Unit,

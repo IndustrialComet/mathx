@@ -43,3 +43,6 @@ impl Trait for Component {
 		}
 	}
 }
+
+negate
+invert
